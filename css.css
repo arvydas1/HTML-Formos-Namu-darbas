@@ -1,0 +1,65 @@
+
+
+body {
+
+    border-collapse: collapse;
+    background-color: #0e0e0e;
+    padding: 125px;
+    font-family: 'Merriweather', sans-serif;
+    box-sizing: border-box;
+
+}
+
+div.container {
+    background-color: #f1f1f1;
+    padding: 34px 79px;
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+
+header {
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 22px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+div.tarea  {
+    float: left;
+    width: 50%;
+    resize: none;
+
+}
+
+div.former {
+    float: left;
+    margin: 1px;
+    width: 50%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+
+}
+
+form input {
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-top: 16px;
+    resize: none;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
