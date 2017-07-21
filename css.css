@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body {
 
@@ -7,7 +9,6 @@ body {
     padding: 125px;
     font-family: 'Merriweather', sans-serif;
     box-sizing: border-box;
-
 }
 
 div.container {
@@ -25,21 +26,23 @@ header {
     font-family: 'Merriweather', sans-serif;
 }
 
-div.tarea  {
+textarea  {
     float: left;
-    width: 50%;
+    width: 200px;
+    max-height: 200px;
+    border: 0;
+    outline: 0;
     resize: none;
-
+    margin: 5px;
+    padding-top: 0px;
 }
 
 div.former {
     float: left;
-    margin: 1px;
+    margin-bottom: 1px;
     width: 50%;
     border: 0;
     outline: 0;
-    padding: 16px;
-
 }
 
 form input {
@@ -49,7 +52,7 @@ form input {
     width: 100%;
     border-radius: 8px;
     display: block;
-    margin-top: 16px;
+    margin-bottom: 16px;
     resize: none;
 }
 input[type=submit] {
