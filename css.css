@@ -14,9 +14,9 @@ body {
 div.container {
     background-color: #f1f1f1;
     padding: 34px 79px;
-    max-width: 700px;
+    max-width: 797px;
     margin: 20px auto;
-
+height:347px;
 }
 
 header {
@@ -26,17 +26,15 @@ header {
     font-family: 'Merriweather', sans-serif;
 }
 
-textarea  {
+div.textarea {
     float: left;
-    width: 200px;
-    max-height: 200px;
     border: 0;
-    outline: 0;
+    height: 126px;
     resize: none;
     margin: 5px;
-    padding-top: 0px;
+    padding-top: 0;
+border-radius: 5px;
 }
-
 div.former {
     float: left;
     margin-bottom: 1px;
